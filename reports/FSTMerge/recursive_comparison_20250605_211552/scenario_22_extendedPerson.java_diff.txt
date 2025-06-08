@@ -1,0 +1,19 @@
+--- expected
++++ merge
+@@ -1,15 +1,7 @@
+ public class ExtendedPerson {
+-private String nationality;
+ private String profession;
+-public ExtendedPerson(String nationality, String profession) {
+-this.nationality = nationality;
++public ExtendedPerson(String profession) {
+ this.profession = profession;
+-}
+-public String getNationality() {
+-return nationality;
+-}
+-public void setNationality(String nationality) {
+-this.nationality = nationality;
+ }
+ public String getProfession() {
+ return profession;

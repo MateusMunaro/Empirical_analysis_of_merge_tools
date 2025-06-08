@@ -1,0 +1,13 @@
+--- expected
++++ merge
+@@ -1,3 +1,4 @@
++<<<<<<< left
+ public class Contact {
+ private String phone;
+ private String address;
+@@ -18,3 +19,5 @@
+ this.address = address;
+ }
+ }
++=======
++>>>>>>>

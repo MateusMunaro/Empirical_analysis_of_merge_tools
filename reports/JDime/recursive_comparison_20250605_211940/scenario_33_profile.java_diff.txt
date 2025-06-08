@@ -1,0 +1,13 @@
+--- expected
++++ merge
+@@ -1,3 +1,4 @@
++<<<<<<< left
+ public class Profile {
+ private String bio;
+ private Date joinDate;
+@@ -18,3 +19,5 @@
+ this.joinDate = joinDate;
+ }
+ }
++=======
++>>>>>>>

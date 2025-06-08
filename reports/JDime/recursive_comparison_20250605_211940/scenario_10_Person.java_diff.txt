@@ -1,0 +1,28 @@
+--- expected
++++ merge
+@@ -3,11 +3,11 @@
+ private String name;
+ private String email;
+ private String phone;
+-public Person(int id, String name, String email, String phone) {
++public Person() {
++}
++public Person(int id, String name) {
+ this.id = id;
+ this.name = name;
+-this.email = email;
+-this.phone = phone;
+ }
+ public int getId() {
+ return id;
+@@ -33,8 +33,7 @@
+ public void setPhone(String phone) {
+ this.phone = phone;
+ }
+-@Override
+-public String toString() {
+-return "Person{id=" + id + ", name='" + name + "'}";
++@Override public String toString() {
++return "Person{id=" + id + ", name=\'" + name + "\'}";
+ }
+ }

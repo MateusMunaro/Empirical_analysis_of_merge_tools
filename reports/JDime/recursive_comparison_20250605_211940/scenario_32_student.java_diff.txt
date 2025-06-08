@@ -1,0 +1,40 @@
+--- expected
++++ merge
+@@ -1,20 +1,23 @@
+-public class StudentDetails {
+-private int age;
+-private List<String> enrolledCourses;
+-public StudentDetails(int age, List<String> enrolledCourses) {
+-this.age = age;
+-this.enrolledCourses = enrolledCourses;
++<<<<<<< left
++public class Student {
++private int id;
++private String name;
++public Student(int id, String name) {
++this.id = id;
++this.name = name;
+ }
+-public int getAge() {
+-return age;
++public int getId() {
++return id;
+ }
+-public void setAge(int age) {
+-this.age = age;
++public void setId(int id) {
++this.id = id;
+ }
+-public List<String> getEnrolledCourses() {
+-return enrolledCourses;
++public String getName() {
++return name;
+ }
+-public void setEnrolledCourses(List<String> enrolledCourses) {
+-this.enrolledCourses = enrolledCourses;
++public void setName(String name) {
++this.name = name;
+ }
+ }
++=======
++>>>>>>>

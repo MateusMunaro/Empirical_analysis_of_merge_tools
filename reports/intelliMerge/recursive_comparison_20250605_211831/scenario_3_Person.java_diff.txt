@@ -1,0 +1,16 @@
+--- expected
++++ merge
+@@ -30,7 +30,12 @@
+ public String getNumber() {
+ return phone;
+ }
+-public void setNumber(String phone) {
++<<<<<<< ours
++public void setPhoneNumber(String phone)
++=======
++public void setNumber(String phone)
++>>>>>>> theirs
++{
+ this.phone = phone;
+ }
+ @Override

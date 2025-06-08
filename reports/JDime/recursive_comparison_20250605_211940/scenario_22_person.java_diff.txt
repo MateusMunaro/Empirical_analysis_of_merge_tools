@@ -1,0 +1,30 @@
+--- expected
++++ merge
+@@ -1,9 +1,12 @@
+-public class BasicPerson {
++<<<<<<< left
++public class Person {
+ private int id;
+ private String name;
+-public BasicPerson(int id, String name) {
++private String nationality;
++public Person(int id, String name, String nationality) {
+ this.id = id;
+ this.name = name;
++this.nationality = nationality;
+ }
+ public int getId() {
+ return id;
+@@ -17,4 +20,12 @@
+ public void setName(String name) {
+ this.name = name;
+ }
++public String getNationality() {
++return nationality;
+ }
++public void setNationality(String nationality) {
++this.nationality = nationality;
++}
++}
++=======
++>>>>>>>

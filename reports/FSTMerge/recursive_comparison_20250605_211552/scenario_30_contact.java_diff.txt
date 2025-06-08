@@ -1,0 +1,32 @@
+--- expected
++++ merge
+@@ -1,20 +1,22 @@
+ public class Contact {
+-private String phone;
+-private String address;
+-public Contact(String phone, String address) {
++private String phone ;
++private String address ;
++public Contact (String phone, String address) {
++this.phone = phone;
++this.address = address;
+ this.phone = phone;
+ this.address = address;
+ }
+-public String getPhone() {
++public String getPhone () {
+ return phone;
+ }
+-public String getAddress() {
++public String getAddress () {
+ return address;
+ }
+-public void setPhone(String phone) {
++public void setPhone (String phone) {
+ this.phone = phone;
+ }
+-public void setAddress(String address) {
++public void setAddress (String address) {
+ this.address = address;
+ }
+ }

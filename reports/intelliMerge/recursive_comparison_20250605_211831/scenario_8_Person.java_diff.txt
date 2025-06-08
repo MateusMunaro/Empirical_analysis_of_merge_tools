@@ -1,0 +1,25 @@
+--- expected
++++ merge
+@@ -3,11 +3,21 @@
+ private String name;
+ private String email;
+ private String phone;
+-public Person(int id, String name, String email, String phone) {
++public Person() {
++}
++<<<<<<< ours
++public Person(int id, String name, String email, String phone)
++=======
++public Person(int id, String name, String email)
++>>>>>>> theirs
++{
+ this.id = id;
+ this.name = name;
+ this.email = email;
++<<<<<<< ours
+ this.phone = phone;
++=======
++>>>>>>> theirs
+ }
+ public int getId() {
+ return id;

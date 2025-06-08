@@ -1,0 +1,31 @@
+--- expected
++++ merge
+@@ -1,14 +1,14 @@
+-public class Person {
+-private int id;
++public class PersonalData {
++private long id;
+ private String name;
+-public Person(int id, String name) {
++public PersonalData(long id, String name) {
+ this.id = id;
+ this.name = name;
+ }
+-public int getId() {
++public long getId() {
+ return id;
+ }
+-public void setId(int id) {
++public void setId(long id) {
+ this.id = id;
+ }
+ public String getName() {
+@@ -17,8 +17,4 @@
+ public void setName(String name) {
+ this.name = name;
+ }
+-@Override
+-public String toString() {
+-return "Person{id=" + id + ", name='" + name + "'}";
+ }
+-}

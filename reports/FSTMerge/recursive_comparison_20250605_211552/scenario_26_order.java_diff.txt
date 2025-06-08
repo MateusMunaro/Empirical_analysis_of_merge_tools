@@ -1,0 +1,33 @@
+--- expected
++++ merge
+@@ -1,20 +1,23 @@
+ public class Order {
+-private int orderId;
+-private double amount;
+-public Order(int orderId, double amount) {
++private int orderId ;
++private double orderAmount;
++public Order (int orderId, double orderAmount) {
++this.orderId = orderId;
++this.orderAmount = orderAmount;
+ this.orderId = orderId;
+ this.amount = amount;
+ }
+-public int getOrderId() {
++public int getOrderId () {
+ return orderId;
+ }
+-public void setOrderId(int orderId) {
++public void setOrderId (int orderId) {
+ this.orderId = orderId;
+ }
+-public double getOrderAmount() {
++public double getOrderAmount () {
+ return amount;
+ }
+-public void setOrderAmount(double amount) {
++public void setOrderAmount (double amount) {
+ this.amount = amount;
+ }
++private double amount;
+ }

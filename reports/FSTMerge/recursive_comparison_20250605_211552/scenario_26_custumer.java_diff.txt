@@ -1,0 +1,33 @@
+--- expected
++++ merge
+@@ -1,20 +1,23 @@
+ public class Customer {
+-private int customerId;
+-private String name;
+-public Customer(int customerId, String name) {
++private int customerId ;
++private String customerName;
++public Customer (int customerId, String customerName) {
++this.customerId = customerId;
++this.customerName = customerName;
+ this.customerId = customerId;
+ this.name = name;
+ }
+-public int getCustomerId() {
++public int getCustomerId () {
+ return customerId;
+ }
+-public void setCustomerId(int customerId) {
++public void setCustomerId (int customerId) {
+ this.customerId = customerId;
+ }
+-public String getCustomerName() {
++public String getCustomerName () {
+ return name;
+ }
+-public void setCustomerName(String name) {
++public void setCustomerName (String name) {
+ this.name = name;
+ }
++private String name;
+ }

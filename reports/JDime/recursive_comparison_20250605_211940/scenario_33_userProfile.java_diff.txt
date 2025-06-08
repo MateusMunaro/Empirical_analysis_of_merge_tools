@@ -1,0 +1,31 @@
+--- expected
++++ merge
+@@ -1,9 +1,9 @@
+-public class Profile {
++public class UserProfile {
+ private String bio;
+-private Date joinDate;
+-public Profile(String bio, Date joinDate) {
++private String location;
++public UserProfile(String bio, String location) {
+ this.bio = bio;
+-this.joinDate = joinDate;
++this.location = location;
+ }
+ public String getBio() {
+ return bio;
+@@ -11,10 +11,10 @@
+ public void setBio(String bio) {
+ this.bio = bio;
+ }
+-public Date getJoinDate() {
+-return joinDate;
++public String getLocation() {
++return location;
+ }
+-public void setJoinDate(Date joinDate) {
+-this.joinDate = joinDate;
++public void setLocation(String location) {
++this.location = location;
+ }
+ }

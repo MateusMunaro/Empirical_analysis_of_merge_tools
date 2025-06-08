@@ -1,0 +1,21 @@
+--- expected
++++ merge
+@@ -1,17 +1,9 @@
+ public class Identity {
+-private int id;
+ private String name;
+ private Date birthDate;
+-public Identity(int id, String name, Date birthDate) {
+-this.id = id;
++public Identity(String name, Date birthDate) {
+ this.name = name;
+ this.birthDate = birthDate;
+-}
+-public int getId() {
+-return id;
+-}
+-public void setId(int id) {
+-this.id = id;
+ }
+ public String getName() {
+ return name;
