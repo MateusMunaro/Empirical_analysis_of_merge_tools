@@ -1,0 +1,824 @@
+{
+  "timestamp": "2025-06-09T20:58:04.562320",
+  "directories": {
+    "merge": "/workspaces/Pesquisa-cientifica/output/IntelliMerge/scenarios",
+    "expected": "/workspaces/Pesquisa-cientifica/output/IntelliMerge/expected"
+  },
+  "file_extensions": [
+    ".java",
+    ".py",
+    ".cpp",
+    ".c",
+    ".h",
+    ".hpp",
+    ".js",
+    ".ts",
+    ".xml",
+    ".json"
+  ],
+  "correspondence_stats": {
+    "exact_matches": 11,
+    "fuzzy_matches": 0,
+    "no_matches": 0,
+    "conflict_files": 0
+  },
+  "all_correspondences": [
+    {
+      "type": "exact_match",
+      "scenario": "scenario_6/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_12/personController.java",
+      "merge_file": "personController.java",
+      "expected_file": "personController.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_8/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_7/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_5/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_30/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_9/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_10/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_2/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_4/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "exact_match",
+      "scenario": "scenario_3/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": []
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_26/order.java",
+      "merge_file": null,
+      "expected_file": "order.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_26/custumer.java",
+      "merge_file": null,
+      "expected_file": "custumer.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_21/identity.java",
+      "merge_file": null,
+      "expected_file": "identity.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_21/contact.java",
+      "merge_file": null,
+      "expected_file": "contact.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_23/personEmail.java",
+      "merge_file": null,
+      "expected_file": "personEmail.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_23/personPhone.java",
+      "merge_file": null,
+      "expected_file": "personPhone.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_23/personIdentity.java",
+      "merge_file": null,
+      "expected_file": "personIdentity.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_24/location.java",
+      "merge_file": null,
+      "expected_file": "location.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_24/client.java",
+      "merge_file": null,
+      "expected_file": "client.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_28/address.java",
+      "merge_file": null,
+      "expected_file": "address.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_20/personContact.java",
+      "merge_file": null,
+      "expected_file": "personContact.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_20/personId.java",
+      "merge_file": null,
+      "expected_file": "personId.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_22/extendedPerson.java",
+      "merge_file": null,
+      "expected_file": "extendedPerson.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_22/basicPerson.java",
+      "merge_file": null,
+      "expected_file": "basicPerson.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_18/personBasicInfo.java",
+      "merge_file": null,
+      "expected_file": "personBasicInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_18/personContactInfo.java",
+      "merge_file": null,
+      "expected_file": "personContactInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_15/contactInfo.java",
+      "merge_file": null,
+      "expected_file": "contactInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_15/individual.java",
+      "merge_file": null,
+      "expected_file": "individual.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_11/personController.java",
+      "merge_file": null,
+      "expected_file": "personController.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_1/client.java",
+      "merge_file": null,
+      "expected_file": "client.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_31/item.java",
+      "merge_file": null,
+      "expected_file": "item.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_31/client.java",
+      "merge_file": null,
+      "expected_file": "client.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_31/purchase.java",
+      "merge_file": null,
+      "expected_file": "purchase.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_19/coreInfo.java",
+      "merge_file": null,
+      "expected_file": "coreInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_19/extendedInfo.java",
+      "merge_file": null,
+      "expected_file": "extendedInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_27/division.java",
+      "merge_file": null,
+      "expected_file": "division.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_27/worker.java",
+      "merge_file": null,
+      "expected_file": "worker.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_30/contact.java",
+      "merge_file": null,
+      "expected_file": "contact.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_34/profile.java",
+      "merge_file": null,
+      "expected_file": "profile.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_34/addressbook.java",
+      "merge_file": null,
+      "expected_file": "addressbook.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_25/contact.java",
+      "merge_file": null,
+      "expected_file": "contact.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_25/user.java",
+      "merge_file": null,
+      "expected_file": "user.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_29/position.java",
+      "merge_file": null,
+      "expected_file": "position.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_29/organization.java",
+      "merge_file": null,
+      "expected_file": "organization.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_29/employee.java",
+      "merge_file": null,
+      "expected_file": "employee.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_32/course.java",
+      "merge_file": null,
+      "expected_file": "course.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_32/studentDetails.java",
+      "merge_file": null,
+      "expected_file": "studentDetails.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_33/profile.java",
+      "merge_file": null,
+      "expected_file": "profile.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_33/user.java",
+      "merge_file": null,
+      "expected_file": "user.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_16/person.java",
+      "merge_file": null,
+      "expected_file": "person.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_16/contactData.java",
+      "merge_file": null,
+      "expected_file": "contactData.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_14/personalInfo.java",
+      "merge_file": null,
+      "expected_file": "personalInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_14/contactDetails.java",
+      "merge_file": null,
+      "expected_file": "contactDetails.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_17/Person.java",
+      "merge_file": null,
+      "expected_file": "Person.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_17/contactMethods.java",
+      "merge_file": null,
+      "expected_file": "contactMethods.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_13/contactInfo.java",
+      "merge_file": null,
+      "expected_file": "contactInfo.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    },
+    {
+      "type": "missing_in_merge",
+      "scenario": "scenario_13/individual.java",
+      "merge_file": null,
+      "expected_file": "individual.java",
+      "match_score": 0.0,
+      "quality_issues": [
+        "missing_in_merge"
+      ]
+    }
+  ],
+  "summary": {
+    "total_files": 11,
+    "perfect_matches": 2,
+    "high_quality": 1,
+    "medium_quality": 4,
+    "low_quality": 4,
+    "total_precision": 7.867778942980556,
+    "total_recall": 7.862809364548495,
+    "total_f1_score": 7.721265082052762,
+    "total_similarity": 7.950435617545987,
+    "name_quality_issues": 0,
+    "structural_issues": 0,
+    "avg_precision": 0.7152526311800506,
+    "avg_recall": 0.7148008513225904,
+    "avg_f1_score": 0.7019331892775238,
+    "avg_similarity": 0.7227668743223625
+  },
+  "detailed_results": [
+    {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "line_order_accuracy": 1.0,
+      "similarity_ratio": 1.0,
+      "total_expected_lines": 26,
+      "total_merge_lines": 26,
+      "correct_lines": 26,
+      "extra_lines": 0,
+      "missing_lines": 0,
+      "error_rate": 0.0,
+      "scenario": "scenario_6/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 1.0
+    },
+    {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "line_order_accuracy": 1.0,
+      "similarity_ratio": 1.0,
+      "total_expected_lines": 49,
+      "total_merge_lines": 49,
+      "correct_lines": 49,
+      "extra_lines": 0,
+      "missing_lines": 0,
+      "error_rate": 0.0,
+      "scenario": "scenario_12/personController.java",
+      "merge_file": "personController.java",
+      "expected_file": "personController.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 1.0
+    },
+    {
+      "precision": 0.78125,
+      "recall": 0.9615384615384616,
+      "f1_score": 0.8620689655172413,
+      "line_order_accuracy": 0.12,
+      "similarity_ratio": 0.8666666666666667,
+      "total_expected_lines": 26,
+      "total_merge_lines": 32,
+      "correct_lines": 25,
+      "extra_lines": 7,
+      "missing_lines": 1,
+      "error_rate": 0.21875,
+      "scenario": "scenario_8/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.8620689655172413
+    },
+    {
+      "precision": 0.65,
+      "recall": 0.52,
+      "f1_score": 0.5777777777777778,
+      "line_order_accuracy": 0.07894736842105263,
+      "similarity_ratio": 0.5882352941176471,
+      "total_expected_lines": 25,
+      "total_merge_lines": 20,
+      "correct_lines": 13,
+      "extra_lines": 7,
+      "missing_lines": 12,
+      "error_rate": 0.35,
+      "scenario": "scenario_7/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.5777777777777778
+    },
+    {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "line_order_accuracy": 0.0,
+      "similarity_ratio": 0.0,
+      "total_expected_lines": 26,
+      "total_merge_lines": 0,
+      "correct_lines": 0,
+      "extra_lines": 0,
+      "missing_lines": 26,
+      "error_rate": 1.0,
+      "scenario": "scenario_5/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.0
+    },
+    {
+      "precision": 0.46153846153846156,
+      "recall": 0.46153846153846156,
+      "f1_score": 0.46153846153846156,
+      "line_order_accuracy": 0.6,
+      "similarity_ratio": 0.6,
+      "total_expected_lines": 13,
+      "total_merge_lines": 13,
+      "correct_lines": 6,
+      "extra_lines": 7,
+      "missing_lines": 7,
+      "error_rate": 0.5384615384615384,
+      "scenario": "scenario_30/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.46153846153846156
+    },
+    {
+      "precision": 0.7777777777777778,
+      "recall": 0.30434782608695654,
+      "f1_score": 0.43750000000000006,
+      "line_order_accuracy": 0.08333333333333333,
+      "similarity_ratio": 0.44,
+      "total_expected_lines": 23,
+      "total_merge_lines": 9,
+      "correct_lines": 7,
+      "extra_lines": 2,
+      "missing_lines": 16,
+      "error_rate": 0.2222222222222222,
+      "scenario": "scenario_9/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.43750000000000006
+    },
+    {
+      "precision": 0.9259259259259259,
+      "recall": 0.9615384615384616,
+      "f1_score": 0.9433962264150944,
+      "line_order_accuracy": 0.875,
+      "similarity_ratio": 0.925,
+      "total_expected_lines": 26,
+      "total_merge_lines": 27,
+      "correct_lines": 25,
+      "extra_lines": 2,
+      "missing_lines": 1,
+      "error_rate": 0.07407407407407407,
+      "scenario": "scenario_10/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.9433962264150944
+    },
+    {
+      "precision": 0.8076923076923077,
+      "recall": 0.8076923076923077,
+      "f1_score": 0.8076923076923077,
+      "line_order_accuracy": 0.85,
+      "similarity_ratio": 0.85,
+      "total_expected_lines": 26,
+      "total_merge_lines": 26,
+      "correct_lines": 21,
+      "extra_lines": 5,
+      "missing_lines": 5,
+      "error_rate": 0.1923076923076923,
+      "scenario": "scenario_2/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.8076923076923077
+    },
+    {
+      "precision": 0.6571428571428571,
+      "recall": 0.8846153846153846,
+      "f1_score": 0.7540983606557377,
+      "line_order_accuracy": 0.15789473684210525,
+      "similarity_ratio": 0.7628865979381443,
+      "total_expected_lines": 26,
+      "total_merge_lines": 35,
+      "correct_lines": 23,
+      "extra_lines": 12,
+      "missing_lines": 3,
+      "error_rate": 0.34285714285714286,
+      "scenario": "scenario_4/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.7540983606557377
+    },
+    {
+      "precision": 0.8064516129032258,
+      "recall": 0.9615384615384616,
+      "f1_score": 0.8771929824561403,
+      "line_order_accuracy": 0.7333333333333333,
+      "similarity_ratio": 0.9176470588235294,
+      "total_expected_lines": 26,
+      "total_merge_lines": 31,
+      "correct_lines": 25,
+      "extra_lines": 6,
+      "missing_lines": 1,
+      "error_rate": 0.19354838709677424,
+      "scenario": "scenario_3/person.java",
+      "merge_file": "person.java",
+      "expected_file": "person.java",
+      "match_score": 1.0,
+      "quality_issues": [],
+      "match_type": "exact_match",
+      "adjusted_f1_score": 0.8771929824561403
+    }
+  ]
+}

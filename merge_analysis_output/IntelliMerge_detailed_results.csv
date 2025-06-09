@@ -1,0 +1,12 @@
+precision,recall,f1_score,line_order_accuracy,similarity_ratio,total_expected_lines,total_merge_lines,correct_lines,extra_lines,missing_lines,error_rate,scenario,merge_file,expected_file,match_score,quality_issues,match_type,adjusted_f1_score
+1.0,1.0,1.0,1.0,1.0,26,26,26,0,0,0.0,scenario_6/person.java,person.java,person.java,1.0,[],exact_match,1.0
+1.0,1.0,1.0,1.0,1.0,49,49,49,0,0,0.0,scenario_12/personController.java,personController.java,personController.java,1.0,[],exact_match,1.0
+0.78125,0.9615384615384616,0.8620689655172413,0.12,0.8666666666666667,26,32,25,7,1,0.21875,scenario_8/person.java,person.java,person.java,1.0,[],exact_match,0.8620689655172413
+0.65,0.52,0.5777777777777778,0.07894736842105263,0.5882352941176471,25,20,13,7,12,0.35,scenario_7/person.java,person.java,person.java,1.0,[],exact_match,0.5777777777777778
+0.0,0.0,0.0,0.0,0.0,26,0,0,0,26,1.0,scenario_5/person.java,person.java,person.java,1.0,[],exact_match,0.0
+0.46153846153846156,0.46153846153846156,0.46153846153846156,0.6,0.6,13,13,6,7,7,0.5384615384615384,scenario_30/person.java,person.java,person.java,1.0,[],exact_match,0.46153846153846156
+0.7777777777777778,0.30434782608695654,0.43750000000000006,0.08333333333333333,0.44,23,9,7,2,16,0.2222222222222222,scenario_9/person.java,person.java,person.java,1.0,[],exact_match,0.43750000000000006
+0.9259259259259259,0.9615384615384616,0.9433962264150944,0.875,0.925,26,27,25,2,1,0.07407407407407407,scenario_10/person.java,person.java,person.java,1.0,[],exact_match,0.9433962264150944
+0.8076923076923077,0.8076923076923077,0.8076923076923077,0.85,0.85,26,26,21,5,5,0.1923076923076923,scenario_2/person.java,person.java,person.java,1.0,[],exact_match,0.8076923076923077
+0.6571428571428571,0.8846153846153846,0.7540983606557377,0.15789473684210525,0.7628865979381443,26,35,23,12,3,0.34285714285714286,scenario_4/person.java,person.java,person.java,1.0,[],exact_match,0.7540983606557377
+0.8064516129032258,0.9615384615384616,0.8771929824561403,0.7333333333333333,0.9176470588235294,26,31,25,6,1,0.19354838709677424,scenario_3/person.java,person.java,person.java,1.0,[],exact_match,0.8771929824561403

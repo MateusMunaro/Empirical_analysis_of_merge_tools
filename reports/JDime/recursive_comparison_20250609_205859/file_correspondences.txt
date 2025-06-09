@@ -1,0 +1,557 @@
+RELATÓRIO DE CORRESPONDÊNCIAS DE ARQUIVOS
+==================================================
+
+Tipo: exact_match
+Cenário: scenario_6/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_26/order.java
+Arquivo Merge: order.java
+Arquivo Esperado: order.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_26/client.java
+Arquivo Merge: client.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_26/custumer.java
+Arquivo Merge: custumer.java
+Arquivo Esperado: custumer.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_26/purchase.java
+Arquivo Merge: purchase.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_12/personController.java
+Arquivo Merge: personController.java
+Arquivo Esperado: personController.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_21/identity.java
+Arquivo Merge: identity.java
+Arquivo Esperado: identity.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_21/contact.java
+Arquivo Merge: contact.java
+Arquivo Esperado: contact.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_21/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_23/personEmail.java
+Arquivo Merge: personEmail.java
+Arquivo Esperado: personEmail.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_23/personPhone.java
+Arquivo Merge: personPhone.java
+Arquivo Esperado: personPhone.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_23/personIdentity.java
+Arquivo Merge: personIdentity.java
+Arquivo Esperado: personIdentity.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_8/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_24/location.java
+Arquivo Merge: location.java
+Arquivo Esperado: location.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_24/address.java
+Arquivo Merge: address.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_24/client.java
+Arquivo Merge: client.java
+Arquivo Esperado: client.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_24/individual.java
+Arquivo Merge: individual.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: no_match
+Cenário: scenario_28/profile.java
+Arquivo Merge: profile.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_28/address.java
+Arquivo Merge: address.java
+Arquivo Esperado: address.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_28/detailAddress.java
+Arquivo Merge: detailAddress.java
+Arquivo Esperado: address.java
+Score de Match: 0.700
+Problemas: name_mismatch
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_20/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: personId.java
+Score de Match: 0.857
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_20/personContact.java
+Arquivo Merge: personContact.java
+Arquivo Esperado: personContact.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_20/personId.java
+Arquivo Merge: personId.java
+Arquivo Esperado: personId.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_22/extendedPerson.java
+Arquivo Merge: extendedPerson.java
+Arquivo Esperado: extendedPerson.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_22/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: basicPerson.java
+Score de Match: 0.706
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_22/basicPerson.java
+Arquivo Merge: basicPerson.java
+Arquivo Esperado: basicPerson.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_18/personBasicInfo.java
+Arquivo Merge: personBasicInfo.java
+Arquivo Esperado: personBasicInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_18/personContactInfo.java
+Arquivo Merge: personContactInfo.java
+Arquivo Esperado: personContactInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_18/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_15/contactInfo.java
+Arquivo Merge: contactInfo.java
+Arquivo Esperado: contactInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_15/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_15/individual.java
+Arquivo Merge: individual.java
+Arquivo Esperado: individual.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_5/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_1/people.java
+Arquivo Merge: people.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_1/client.java
+Arquivo Merge: client.java
+Arquivo Esperado: client.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_31/item.java
+Arquivo Merge: item.java
+Arquivo Esperado: item.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_31/order.java
+Arquivo Merge: order.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_31/client.java
+Arquivo Merge: client.java
+Arquivo Esperado: client.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_31/custumer.java
+Arquivo Merge: custumer.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_31/purchase.java
+Arquivo Merge: purchase.java
+Arquivo Esperado: purchase.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_19/coreInfo.java
+Arquivo Merge: coreInfo.java
+Arquivo Esperado: coreInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_19/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_19/extendedInfo.java
+Arquivo Merge: extendedInfo.java
+Arquivo Esperado: extendedInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_27/division.java
+Arquivo Merge: division.java
+Arquivo Esperado: division.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_27/worker.java
+Arquivo Merge: worker.java
+Arquivo Esperado: worker.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_30/userContact.java
+Arquivo Merge: userContact.java
+Arquivo Esperado: contact.java
+Score de Match: 0.778
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_30/contact.java
+Arquivo Merge: contact.java
+Arquivo Esperado: contact.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_30/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_9/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_10/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_2/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_34/profile.java
+Arquivo Merge: profile.java
+Arquivo Esperado: profile.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_34/addressbook.java
+Arquivo Merge: addressbook.java
+Arquivo Esperado: addressbook.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_34/user.java
+Arquivo Merge: user.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_4/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_3/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_25/phoneContact.java
+Arquivo Merge: phoneContact.java
+Arquivo Esperado: contact.java
+Score de Match: 0.737
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_25/user.java
+Arquivo Merge: user.java
+Arquivo Esperado: user.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_29/position.java
+Arquivo Merge: position.java
+Arquivo Esperado: position.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_29/organization.java
+Arquivo Merge: organization.java
+Arquivo Esperado: organization.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_29/staff.java
+Arquivo Merge: staff.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_29/employee.java
+Arquivo Merge: employee.java
+Arquivo Esperado: employee.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_29/departament.java
+Arquivo Merge: departament.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: no_match
+Cenário: scenario_32/learner.java
+Arquivo Merge: learner.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_32/student.java
+Arquivo Merge: student.java
+Arquivo Esperado: studentDetails.java
+Score de Match: 0.667
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_32/course.java
+Arquivo Merge: course.java
+Arquivo Esperado: course.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_32/studentDetails.java
+Arquivo Merge: studentDetails.java
+Arquivo Esperado: studentDetails.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_32/program.java
+Arquivo Merge: program.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_33/userProfile.java
+Arquivo Merge: userProfile.java
+Arquivo Esperado: profile.java
+Score de Match: 0.778
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_33/profile.java
+Arquivo Merge: profile.java
+Arquivo Esperado: profile.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_33/user.java
+Arquivo Merge: user.java
+Arquivo Esperado: user.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_33/userPreferences.java
+Arquivo Merge: userPreferences.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: no_match
+Cenário: scenario_33/account.java
+Arquivo Merge: account.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_16/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_16/contactData.java
+Arquivo Merge: contactData.java
+Arquivo Esperado: contactData.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_16/personalData.java
+Arquivo Merge: personalData.java
+Arquivo Esperado: person.java
+Score de Match: 0.667
+Problemas: name_mismatch
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_14/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: personalInfo.java
+Score de Match: 0.667
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_14/personalInfo.java
+Arquivo Merge: personalInfo.java
+Arquivo Esperado: personalInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_14/contactDetails.java
+Arquivo Merge: contactDetails.java
+Arquivo Esperado: contactDetails.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_17/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: Person.java
+Score de Match: 1.000
+------------------------------
+Tipo: exact_match
+Cenário: scenario_17/contactMethods.java
+Arquivo Merge: contactMethods.java
+Arquivo Esperado: contactMethods.java
+Score de Match: 1.000
+------------------------------
+Tipo: fuzzy_match
+Cenário: scenario_17/personIdentity.java
+Arquivo Merge: personIdentity.java
+Arquivo Esperado: Person.java
+Score de Match: 0.600
+Problemas: name_mismatch
+------------------------------
+Tipo: exact_match
+Cenário: scenario_13/contactInfo.java
+Arquivo Merge: contactInfo.java
+Arquivo Esperado: contactInfo.java
+Score de Match: 1.000
+------------------------------
+Tipo: no_match
+Cenário: scenario_13/person.java
+Arquivo Merge: person.java
+Arquivo Esperado: None
+Score de Match: 0.000
+Problemas: missing_correspondence
+------------------------------
+Tipo: exact_match
+Cenário: scenario_13/individual.java
+Arquivo Merge: individual.java
+Arquivo Esperado: individual.java
+Score de Match: 1.000
+------------------------------
+Tipo: missing_in_merge
+Cenário: scenario_7/person.java
+Arquivo Merge: None
+Arquivo Esperado: person.java
+Score de Match: 0.000
+Problemas: missing_in_merge
+------------------------------
+Tipo: missing_in_merge
+Cenário: scenario_11/personController.java
+Arquivo Merge: None
+Arquivo Esperado: personController.java
+Score de Match: 0.000
+Problemas: missing_in_merge
+------------------------------
