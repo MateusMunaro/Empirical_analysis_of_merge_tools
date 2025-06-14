@@ -42,7 +42,7 @@ public class Person {
         return phone;
     }
     
-    public void setPhone(String phone) {
+    public void setPhone(Float phone) {
         this.phone = phone;
     }
     

@@ -5,7 +5,7 @@ public class Person {
     
     public Person(int id, String email, String phone) {
         this.id = id;
-        this.name = email;
+        this.email = email;
         this.phone = phone;
     }
     
