@@ -10,6 +10,8 @@ public   class  PersonController {
         this.personService = personService;
     
         this.personService = personService;
+    
+        this.personService = personService;
     }
 
 	
@@ -56,13 +58,13 @@ public   class  PersonController {
 
 	
     
-    private Person initializePerson(int id, String name) {
+    private Person initializePerson  (int id, String name) {
         return new Person(id, name);
     }
 
 	
     
-    private void fillPersonDetails(Person person, String email, String phone) {
+    private void fillPersonDetails  (Person person, String email, String phone) {
         person.setEmail(email);
         person.setPhone(phone);
     }

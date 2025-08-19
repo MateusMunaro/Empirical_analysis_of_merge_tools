@@ -16,4 +16,12 @@ public class Person {
   public void setId(int id) {
     this.id = id;
   }
+
+
+<<<<<<< ./senarios_merge_base/JDime/scenario_9/left/person.java
+  @Override public String toString() {
+    return "Person{id=" + id + "}";
+  }
+=======
+>>>>>>> Unknown file: This is a bug in JDime.
 }

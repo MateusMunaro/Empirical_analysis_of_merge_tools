@@ -10,7 +10,7 @@ public class Person {
      {
         this.id = id;
 <<<<<<< ours
-        this.name = email;
+        this.email = email;
 =======
         this.name = name;
 >>>>>>> theirs

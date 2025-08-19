@@ -605,7 +605,7 @@ class MergeMetricsVisualizer:
 if __name__ == "__main__":
     # Cria o analisador e carrega os dados
     analyzer = MergeMetricsAnalyzer()
-    analyzer.load_json('/workspaces/Pesquisa-cientifica/reports/JDime/recursive_comparison_20250609_205859/full_recursive_report.json', 'JDime')
+    analyzer.load_json('/workspaces/Pesquisa-cientifica/merge_analysis_output/summary_metrics.csv', 'Tools')
     
     # Se tiver outros JSONs:
     # analyzer.load_json('jdime_results.json', 'JDime')

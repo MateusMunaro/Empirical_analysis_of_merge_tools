@@ -36,11 +36,11 @@ public class Person {
         this.email = email;
     }
     
-    public String getPhone() {
+    public PhoneNumber getPhone() {
         return phone;
     }
     
-    public void setPhone(PhoneNumber phone) {
+    public void setPhone(PhoneNumber phone) {s
         this.phone = phone;
     }
     

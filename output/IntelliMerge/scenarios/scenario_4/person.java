@@ -57,7 +57,12 @@ public class Person {
         return phone;
     }
     
-    public void setPhone(String phone) {
+<<<<<<< ours
+    public void setPhone(Float phone)
+=======
+    public void setPhone(int phone)
+>>>>>>> theirs
+     {
         this.phone = phone;
     }
     

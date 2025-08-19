@@ -1,15 +1,15 @@
-public   class  Person {
+public  class  Person {
 	
-    private int id  ;
+    private int id;
 
 	
-    private String name  ;
+    private String name;
 
 	
-    private String email  ;
+    private String email;
 
 	
-    private PhoneNumber phone  ;
+    private String phone;
 
 	
 
@@ -20,43 +20,43 @@ public   class  Person {
 
 	
     
-    public int getId  () {
+    public int getId() {
         return id;
     }
 
 	
     
-    public void setId  (int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
 	
     
-    public String getName  () {
+    public String getName() {
         return name;
     }
 
 	
     
-    public void setName  (String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
 	
     
-    public String getEmail  () {
+    public String getEmail() {
         return email;
     }
 
 	
     
-    public void setEmail  (String email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 
 	
     
-    public String getPhone  () {
+    public String getPhone() {
         return phone;
     }
 
@@ -71,21 +71,6 @@ public   class  Person {
     @Override
     public String toString() {
         return "Person{id=" + id + ", name='" + name + "'}";
-    }
-
-	
-    
-    public Person(int id, String name, String email, PhoneNumber phone) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-    }
-
-	
-    
-    public void setPhone(PhoneNumber phone) {
-        this.phone = phone;
     }
 
 

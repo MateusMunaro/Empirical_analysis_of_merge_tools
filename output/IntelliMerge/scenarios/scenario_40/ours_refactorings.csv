@@ -1,0 +1,2 @@
+refactoring_type;node_type;confidence;before_location;before_node;after_location;after_node
+Change Field Signature;field;1.0;2-2;.Product.id;2-2;.Entity.id
