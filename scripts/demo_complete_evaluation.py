@@ -59,7 +59,7 @@ def run_command(cmd, description):
 
 def display_results_summary():
     """Mostra resumo dos resultados"""
-    results_dir = Path('/workspaces/Pesquisa-cientifica/scientific_evaluation_results')
+    results_dir = Path('/workspaces/Pesquisa-cientifica/evaluation_results/scientific_evaluation')
     
     if not results_dir.exists():
         print("❌ Diretório de resultados não encontrado!")
@@ -134,7 +134,7 @@ avaliar e comparar ferramentas de merge em desenvolvimento de software.
     # Etapa 1: Verificação da estrutura
     print_section("ETAPA 1: VERIFICAÇÃO DA ESTRUTURA DE DADOS")
     success = run_command(
-        "/workspaces/Pesquisa-cientifica/.venv/bin/python run_evaluation.py --check-only",
+        "/workspaces/Pesquisa-cientifica/.venv/bin/python scripts/run_evaluation.py --check-only",
         "Verificando disponibilidade de dados para avaliação"
     )
     
@@ -156,7 +156,7 @@ Esta etapa executa a avaliação completa de todas as ferramentas disponíveis:
 """)
     
     success = run_command(
-        "/workspaces/Pesquisa-cientifica/.venv/bin/python run_evaluation.py",
+        "/workspaces/Pesquisa-cientifica/.venv/bin/python scripts/run_evaluation.py",
         "Executando avaliação científica completa de todas as ferramentas"
     )
     
@@ -180,7 +180,7 @@ O relatório científico inclui:
 """)
     
     success = run_command(
-        "/workspaces/Pesquisa-cientifica/.venv/bin/python scientific_report_generator.py",
+        "/workspaces/Pesquisa-cientifica/.venv/bin/python scripts/scientific_report_generator.py",
         "Gerando relatório científico completo em formato Markdown"
     )
     
@@ -206,7 +206,7 @@ O relatório científico inclui:
 • Relatório científico completo
 
 📁 ARQUIVOS GERADOS:
-• scientific_evaluation_results/: Todos os dados da avaliação
+• evaluation_results/scientific_evaluation/: Todos os dados da avaliação
 • scientific_merge_tools_evaluation.md: Relatório científico completo
 • tools_comparison.json: Comparação detalhada entre ferramentas
 • scenario_metrics.csv: Métricas por cenário (cada ferramenta)
@@ -236,9 +236,9 @@ Esta ferramenta proporciona uma base sólida e cientificamente rigorosa para:
 """)
     
     print(f"\n📂 Todos os resultados estão disponíveis em:")
-    print(f"   /workspaces/Pesquisa-cientifica/scientific_evaluation_results/")
+    print(f"   /workspaces/Pesquisa-cientifica/evaluation_results/scientific_evaluation/")
     print(f"\n📖 Relatório científico principal:")
-    print(f"   scientific_evaluation_results/scientific_merge_tools_evaluation.md")
+    print(f"   evaluation_results/scientific_evaluation/scientific_merge_tools_evaluation.md"))
     
     return 0
 

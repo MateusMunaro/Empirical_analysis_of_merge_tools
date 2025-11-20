@@ -810,7 +810,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description="Generate scientific reports for merge tool evaluation")
-    parser.add_argument('--results-dir', type=Path, default='scientific_evaluation_results',
+    parser.add_argument('--results-dir', type=Path, default='evaluation_results/scientific_evaluation',
                        help='Directory containing evaluation results')
     parser.add_argument('--output-file', default='scientific_report.md',
                        help='Output filename for the report')

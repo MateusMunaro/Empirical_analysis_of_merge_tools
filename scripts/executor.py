@@ -3,12 +3,12 @@ import os
 import shutil
 
 def run_intellimerge():
-    jar_path = "./IntelliMerge/IntelliMerge-1.0.9-all.jar"
+    jar_path = "./merge_tools/IntelliMerge/IntelliMerge-1.0.9-all.jar"
     for i in range(1, 40):
         scenario = f"scenario_{i}"
-        left = f"./senarios_merge_base/IntelliMerge/{scenario}/left"
-        base = f"./senarios_merge_base/IntelliMerge/{scenario}/base"
-        right = f"./senarios_merge_base/IntelliMerge/{scenario}/right"
+        left = f"./scenarios_base/IntelliMerge/{scenario}/left"
+        base = f"./scenarios_base/IntelliMerge/{scenario}/base"
+        right = f"./scenarios_base/IntelliMerge/{scenario}/right"
         output = f"./output/IntelliMerge/scenarios/{scenario}"
 
         # Garantir que o diretório de saída existe
@@ -41,10 +41,10 @@ def run_intellimerge():
         print(f"[IntelliMerge] Cenário {i} processado com sucesso")
         
 def run_fstmerge():
-    jar_path = "./FSTMerge/featurehouse_20220107.jar"
+    jar_path = "./merge_tools/FSTMerge/featurehouse_20220107.jar"
     for i in range(1, 40):
         scenario = f"scenario_{i}"
-        base_dir = f"./senarios_merge_base/FSTMerge/{scenario}"
+        base_dir = f"./scenarios_base/FSTMerge/{scenario}"
         expression = f"{base_dir}/merge.expression"
 
         output_dir = f"./output/FSTMerge/scenarios/{scenario}"
@@ -81,17 +81,17 @@ def run_fstmerge():
         print(f"[FSTMerge] Cenário {i} processado com sucesso")
 
 def run_jdime():
-    jdime_exec = "./JDime/jdime/build/install/JDime/bin/JDime"
-    java_home = "/workspaces/Pesquisa-cientifica/java-versions/jdk8u392-b08"
+    jdime_exec = "./merge_tools/JDime/jdime/build/install/JDime/bin/JDime"
+    java_home = "/workspaces/Pesquisa-cientifica/java_dependencies/java-versions/jdk8u392-b08"
     
     failed_scenarios = []
     successful_scenarios = []
 
     for i in range(1, 40):
         scenario = f"scenario_{i}"
-        left = f"./senarios_merge_base/JDime/{scenario}/left"
-        base = f"./senarios_merge_base/JDime/{scenario}/base"
-        right = f"./senarios_merge_base/JDime/{scenario}/right"
+        left = f"./scenarios_base/JDime/{scenario}/left"
+        base = f"./scenarios_base/JDime/{scenario}/base"
+        right = f"./scenarios_base/JDime/{scenario}/right"
         output = f"./output/JDime/scenarios/{scenario}"
 
         # Ensure output directory exists
@@ -158,10 +158,10 @@ def run_jdime():
 def run_automerge():
     # Configurar caminhos base
     workspace = "/workspaces/Pesquisa-cientifica"
-    java_exec = f"{workspace}/java-versions/jdk-11.0.2/bin/java"
+    java_exec = f"{workspace}/java_dependencies/java-versions/jdk-11.0.2/bin/java"
     
     # Caminhos para JARs e bibliotecas
-    automerge_jar = f"{workspace}/AutoMerge/AutoMerge.jar"
+    automerge_jar = f"{workspace}/merge_tools/AutoMerge/AutoMerge.jar"
     activation_jar = f"{workspace}/libs/activation-1.1.1.jar"
     
     # Diretório para bibliotecas do JavaFX
@@ -205,7 +205,7 @@ def run_automerge():
     javafx_modules = "--module-path=" + javafx_lib_dir + " --add-modules=javafx.base,javafx.controls,javafx.graphics"
     
     env = os.environ.copy()
-    env["LD_LIBRARY_PATH"] = f"{workspace}/java-versions/libgit2/build:{env.get('LD_LIBRARY_PATH', '')}"
+    env["LD_LIBRARY_PATH"] = f"{workspace}/java_dependencies/java-versions/libgit2/build:{env.get('LD_LIBRARY_PATH', '')}"
     
     # Verificar se os diretórios necessários existem
     os.makedirs(f"{workspace}/output/AutoMerge", exist_ok=True)
@@ -218,9 +218,9 @@ def run_automerge():
         output_file = f"{workspace}/output/AutoMerge/{scenario}.java"
         
         # Obter diretórios para entrada
-        base_dir = f"{workspace}/senarios_merge_base/AutoMerge/{scenario}/base"
-        left_dir = f"{workspace}/senarios_merge_base/AutoMerge/{scenario}/left"
-        right_dir = f"{workspace}/senarios_merge_base/AutoMerge/{scenario}/right"
+        base_dir = f"{workspace}/scenarios_base/AutoMerge/{scenario}/base"
+        left_dir = f"{workspace}/scenarios_base/AutoMerge/{scenario}/left"
+        right_dir = f"{workspace}/scenarios_base/AutoMerge/{scenario}/right"
         
         # Verificar se os diretórios existem
         if not all(os.path.exists(d) for d in [base_dir, left_dir, right_dir]):

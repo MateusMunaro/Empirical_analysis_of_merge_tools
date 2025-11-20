@@ -69,12 +69,12 @@ def find_available_tools():
     return available_tools
 
 
-def run_evaluation(tools, output_dir="scientific_evaluation_results", verbose=False):
+def run_evaluation(tools, output_dir="evaluation_results/scientific_evaluation", verbose=False):
     """Run the evaluation framework"""
     
     # Build command
     python_cmd = "/workspaces/Pesquisa-cientifica/.venv/bin/python"
-    eval_script = "merge_evaluation_tool.py"
+    eval_script = "scripts/merge_evaluation_tool.py"
     
     cmd = [
         python_cmd,
@@ -188,8 +188,8 @@ def main():
     
     parser.add_argument(
         '--output-dir',
-        default='scientific_evaluation_results',
-        help='Output directory for results (default: scientific_evaluation_results)'
+        default='evaluation_results/scientific_evaluation',
+        help='Output directory for results (default: evaluation_results/scientific_evaluation)'
     )
     
     parser.add_argument(

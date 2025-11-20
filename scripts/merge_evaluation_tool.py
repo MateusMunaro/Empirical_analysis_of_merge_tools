@@ -908,7 +908,7 @@ def main():
     parser.add_argument(
         '--output-dir',
         type=Path,
-        default=Path('scientific_evaluation_results'),
+        default=Path('evaluation_results/scientific_evaluation'),
         help='Directory to save evaluation results'
     )
     
