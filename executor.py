@@ -4,7 +4,7 @@ import shutil
 
 def run_intellimerge():
     jar_path = "./IntelliMerge/IntelliMerge-1.0.9-all.jar"
-    for i in range(1, 42):
+    for i in range(1, 40):
         scenario = f"scenario_{i}"
         left = f"./senarios_merge_base/IntelliMerge/{scenario}/left"
         base = f"./senarios_merge_base/IntelliMerge/{scenario}/base"
@@ -42,7 +42,7 @@ def run_intellimerge():
         
 def run_fstmerge():
     jar_path = "./FSTMerge/featurehouse_20220107.jar"
-    for i in range(1, 42):
+    for i in range(1, 40):
         scenario = f"scenario_{i}"
         base_dir = f"./senarios_merge_base/FSTMerge/{scenario}"
         expression = f"{base_dir}/merge.expression"
@@ -87,7 +87,7 @@ def run_jdime():
     failed_scenarios = []
     successful_scenarios = []
 
-    for i in range(1, 42):
+    for i in range(1, 40):
         scenario = f"scenario_{i}"
         left = f"./senarios_merge_base/JDime/{scenario}/left"
         base = f"./senarios_merge_base/JDime/{scenario}/base"
