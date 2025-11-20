@@ -66,7 +66,13 @@ public class Person {
 >>>>>>> ./senarios_merge_base/JDime/scenario_4/right/person.java
 
 
-  public void setPhone(String phone) {
+  public void setPhone(
+<<<<<<< ./senarios_merge_base/JDime/scenario_4/left/person.java
+  Float phone
+=======
+  int phone
+>>>>>>> ./senarios_merge_base/JDime/scenario_4/right/person.java
+  ) {
     this.phone = phone;
   }
 

@@ -64,7 +64,7 @@ public   class  Person {
 
 	
     
-    public void setPhone  (String phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -92,10 +92,22 @@ public   class  Person {
 
 	
     
+    public void setPhone(Float phone) {
+        this.phone = phone;
+    }
+
+	
+    
     public Person(int id, String name, String email, int phone) {
         this.id = id;
         this.name = name;
         this.email = email;
+        this.phone = phone;
+    }
+
+	
+    
+    public void setPhone(int phone) {
         this.phone = phone;
     }
 
