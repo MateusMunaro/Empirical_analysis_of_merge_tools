@@ -2,6 +2,9 @@ import subprocess
 import os
 import shutil
 
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+os.chdir(PROJECT_ROOT)
+
 def run_intellimerge():
     jar_path = "./merge_tools/IntelliMerge/IntelliMerge-1.0.9-all.jar"
     for i in range(1, 40):
@@ -23,7 +26,7 @@ def run_intellimerge():
         subprocess.run(command, check=True)
         
         # Corrigir a estrutura de pastas criada pelo IntelliMerge
-        nested_path = f"{output}/workspaces/Pesquisa-cientifica"
+        nested_path = f"{output}/workspaces/Empirical_analysis_of_merge_tools"
         if os.path.exists(nested_path):
             # Encontrar todos os arquivos .java na pasta aninhada
             for root, dirs, files in os.walk(nested_path):
@@ -82,7 +85,7 @@ def run_fstmerge():
 
 def run_jdime():
     jdime_exec = "./merge_tools/JDime/jdime/build/install/JDime/bin/JDime"
-    java_home = "/workspaces/Pesquisa-cientifica/java_dependencies/java-versions/jdk8u392-b08"
+    java_home = "/workspaces/Empirical_analysis_of_merge_tools/java_dependencies/java-versions/jdk8u392-b08"
     
     failed_scenarios = []
     successful_scenarios = []
